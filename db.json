@@ -1,15 +1,86 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "albums": [
+    {
+      "id": 1,
+      "title": "Wesele Nowaków",
+      "code": "123XYZ",
+      "adminID": 2,
+      "num_pages": 2,
+      "userIDs": [
+        2,
+        1
+      ],
+      "photoIDs": [
+        [
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Wesele 2k33",
+      "code": "2k33",
+      "adminID": 3,
+      "num_pages": 1,
+      "userIDs": [
+        3
+      ],
+      "photoIDs": [
+        [
+          5,
+          6
+        ]
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "photos": [
+    {
+      "id": 1,
+      "url": "https://via.placeholder.com/200/5500ff",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "url": "https://via.placeholder.com/200/0000ff",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "url": "https://via.placeholder.com/200/55aaff",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "url": "https://via.placeholder.com/200/55ee00",
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "url": "https://via.placeholder.com/200/cc8855",
+      "userId": 3
+    },
+    {
+      "id": 6,
+      "url": "https://via.placeholder.com/200/dd1122",
+      "userId": 3
+    }
   ],
   "users": [
-    {"id": 1, "username": "Gesiek"},
-    {"id": 2, "username": "Testownik"}
+    {
+      "id": 1,
+      "username": "Gesiek"
+    },
+    {
+      "id": 2,
+      "username": "Jan Nowak"
+    },
+    {
+      "id": 3,
+      "username": "Zofia Z."
+    }
   ]
 }
